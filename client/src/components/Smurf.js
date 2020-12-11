@@ -7,7 +7,7 @@ class Smurf extends React.Component {
     return (
       <div data-testid="smurf" className="card">
         {smurfs.map((item, index) => (
-          <div key={index}>
+          <div className="smurfs" key={index}>
             <h2>
               {item.name} - <span>{item.nickname}</span>
             </h2>
